@@ -1,0 +1,16 @@
+<h1>Hello r!</h1>
+<p>
+Сейчас <%= @time %>
+</p>
+<p>
+Пора сказать
+
+<%= link_to "до свидания", say_goodbye_path %>!
+</p>
+<%= 1+2 %>
+<%= "cow" + "boy" %>
+<%= 1.hour.from_now %>
+
+<% for file in @files %>
+file name is: <%= file %><br>
+<% end %>
